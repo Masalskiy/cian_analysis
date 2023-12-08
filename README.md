@@ -1,6 +1,8 @@
 # Проект по анализу обьявлений Циан
-Для запуска Hadoop docker-hadoop-hive-parquet
-    https://github.com/tech4242/docker-hadoop-hive-parquet/tree/master
+Для запуска Hadoop infra/docker-hadoop-hive
+
+        docker compose up
+
 
 Для запуска clickhouse и grafana перейти по ссылке infra/clickhouse_grafana 
     
@@ -14,3 +16,9 @@
     docker compose up airflow-init
 
     docker compose up
+
+# Архитектура решения
+![alt text](img/architecture.jpg)
+
+# Горизонтальная масштабируемость
+![alt text](img/h_scaling.jpg)
